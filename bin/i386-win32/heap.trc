@@ -1,0 +1,310 @@
+D:\Projects\BRM\Implementation\EventsProcessor\bin\i386-win32\EventsProcessor.exe 
+Heap dump by heaptrc unit
+23158629 memory blocks allocated : 1940443245/2020105680
+23158595 memory blocks freed     : 1940386117/2020048488
+34 unfreed memory blocks : 57128
+True heap size : 1212416 (144 used in System startup)
+True free heap : 1152480
+Should be : 1152904
+Call trace for block $03F61630 size 16
+  $0040E068
+  $00429751  TBITMSSQLDATACONNECTOR__QUERY,  line 158 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592B14  TBITDSCONNECTOR__QUERY,  line 278 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042C9C9  TEVENTPROCESSOR__CHECKEVENTS,  line 327 of evtprocessor.pas
+  $0042A0B4  TFRM_MAINFORM__TIMERTIMER,  line 86 of maineventsprocessor.pas
+  $0053D725  TCUSTOMTIMER__DOONTIMER,  line 175 of customtimer.pas
+  $0053D68F  TCUSTOMTIMER__TIMER,  line 150 of customtimer.pas
+  $004E1EE1  TIMERCALLBACKPROC,  line 2788 of win32callback.inc
+Call trace for block $03F615D0 size 16
+  $0040E068
+  $00429751  TBITMSSQLDATACONNECTOR__QUERY,  line 158 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592B14  TBITDSCONNECTOR__QUERY,  line 278 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042C9C9  TEVENTPROCESSOR__CHECKEVENTS,  line 327 of evtprocessor.pas
+  $0042A0B4  TFRM_MAINFORM__TIMERTIMER,  line 86 of maineventsprocessor.pas
+  $0053D725  TCUSTOMTIMER__DOONTIMER,  line 175 of customtimer.pas
+  $0053D68F  TCUSTOMTIMER__TIMER,  line 150 of customtimer.pas
+  $004E1EE1  TIMERCALLBACKPROC,  line 2788 of win32callback.inc
+Call trace for block $03F32158 size 54704
+  $00429EE2  TFRM_MAINFORM__FORMCREATE,  line 63 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+  $F0F0F0F0
+Call trace for block $02460AF0 size 22
+  $00437DBB
+  $00429084  TBITMSSQLDATACONNECTOR__SETPARAMETERS,  line 64 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $0042AC23  INITDS,  line 87 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $02465D10 size 37
+  $00437DBB
+  $00429022  TBITMSSQLDATACONNECTOR__SETPARAMETERS,  line 63 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $0042AC23  INITDS,  line 87 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $02465CA0 size 35
+  $00437DBB
+  $00428FC6  TBITMSSQLDATACONNECTOR__SETPARAMETERS,  line 62 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $0042AC23  INITDS,  line 87 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $02465C30 size 26
+  $00437DBB
+  $00428F64  TBITMSSQLDATACONNECTOR__SETPARAMETERS,  line 61 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $0042AC23  INITDS,  line 87 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $03F60B50 size 22
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+Call trace for block $02465BC0 size 37
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+Call trace for block $02465B50 size 35
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+Call trace for block $02465AE0 size 32
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+Call trace for block $02465A70 size 26
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+Call trace for block $03F60A90 size 20
+  $00592ECC  TBITDATASOURCE__ADDCONNECTOR,  line 356 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $00592F76  TBITDATASOURCE__CREATECONNECTOR,  line 369 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $03F60AF0 size 12
+  $00592EB4  TBITDATASOURCE__ADDCONNECTOR,  line 355 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $00592F76  TBITDATASOURCE__CREATECONNECTOR,  line 369 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $03F60BB0 size 16
+  $0040E068
+  $00563057
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $024753B0 size 68
+  $0056422C
+  $00428D7D  TBITMSSQLDATACONNECTOR__CREATE,  line 43 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $03F60C70 size 16
+  $00436D85
+  $00577FBC
+  $0056421D
+  $00428D7D  TBITMSSQLDATACONNECTOR__CREATE,  line 43 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+Call trace for block $03F609D0 size 16
+  $00577FBC
+  $0056421D
+  $00428D7D  TBITMSSQLDATACONNECTOR__CREATE,  line 43 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+Call trace for block $024DBDD0 size 80
+  $00428D7D  TBITMSSQLDATACONNECTOR__CREATE,  line 43 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $03F60C10 size 16
+  $00436D85
+  $005777F4
+  $0056356D
+  $005815DD
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+Call trace for block $02460BB0 size 16
+  $005777F4
+  $0056356D
+  $005815DD
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+Call trace for block $02460E50 size 16
+  $00436D85
+  $005777E2
+  $0056356D
+  $005815DD
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+Call trace for block $03F60D30 size 16
+  $005777E2
+  $0056356D
+  $005815DD
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+Call trace for block $02475320 size 68
+  $005777D0
+  $0056356D
+  $005815DD
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+Call trace for block $03F680D8 size 384
+  $00428D5D  TBITMSSQLDATACONNECTOR__CREATE,  line 42 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $02475290 size 68
+  $0055F64E  TBITCUSTOMDATACONNECTOR__CREATE,  line 55 of D:/Projects/bitDevTools/bitDataSource/bitCustomDataConnector.pas
+  $00428D43  TBITMSSQLDATACONNECTOR__CREATE,  line 40 of D:/Projects/bitDevTools/bitDataSource/bitMSSQLDataConnector.pas
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $02460A30 size 16
+  $00592F62  TBITDATASOURCE__CREATECONNECTOR,  line 366 of D:/Projects/bitDevTools/bitDataSource/bitDataSource.pas
+  $0042AA8E  INITDS,  line 82 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+Call trace for block $024839F0 size 8
+  $0042AA7A  INITDS,  line 81 of eventsprocessorvars.pas
+  $00429E94  TFRM_MAINFORM__FORMCREATE,  line 57 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
+  $00411C31
+Call trace for block $0247F848 size 52
+  $005955DB
+  $005961F6
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $02460CD0 size 20
+  $005955A8
+  $005961F6
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $024B7E48 size 1024
+  $00595588
+  $005961F6
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $02460A90 size 20
+  $00595588
+  $005961F6
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+Call trace for block $02475200 size 64
+  $005961F6
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+Call trace for block $02511258 size 104
+  $0042A765  LOADEVENTSPROCESSORSETTINGS,  line 52 of eventsprocessorvars.pas
+  $0042AA00  LOADEVENTSPROCESSORSETTINGS,  line 74 of eventsprocessorvars.pas
+  $00429E6B  TFRM_MAINFORM__FORMCREATE,  line 54 of maineventsprocessor.pas
+  $0041B000  TCUSTOMFORM__DOCREATE,  line 930 of ./include/customform.inc
+  $004194FA  TCUSTOMFORM__AFTERCONSTRUCTION,  line 149 of ./include/customform.inc
+  $0041FE26  TFORM__CREATE,  line 3058 of ./include/customform.inc
+  $004273F8  TAPPLICATION__CREATEFORM,  line 2169 of ./include/application.inc
+  $00402C30  main,  line 20 of EventsProcessor.lpr
